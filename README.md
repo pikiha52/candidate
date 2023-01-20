@@ -14,6 +14,8 @@ docker run --rm \
 - running migration
 - running seeder sail artisan db:seed --class=UserSeeders
 - running seeder sail artisan db:seed --class=PermissionSeeder
+- update your .env variable L5_SWAGGER_CONST_HOST
+- running sail artisan l5-swagger:generate for build swagger docs
 
 ## First Clone Without Docker
 - clone project in folder htdocs
@@ -22,6 +24,8 @@ docker run --rm \
 - running migration
 - running seeder php artisan db:seed --class=UserSeeders
 - running seeder php artisan db:seed --class=PermissionSeeder
+- update your .env variable L5_SWAGGER_CONST_HOST
+- running php artisan l5-swagger:generate for build swagger docs
 
 
 ## Unit Testing
